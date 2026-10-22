@@ -19,7 +19,7 @@ print(tabela_medias)
 
 #Gráfico
 plt.style.use('classic')
-tabela_medias.plot(kind='bar',color=["cyan", "magenta"], edgecolor="black", linewidth=1, figsize=(8, 8))
+tabela_medias.plot(kind='bar',color=["brown", "salmon"], edgecolor="black", linewidth=1, figsize=(8, 8))
 plt.title("Gráfico Exemplo", fontsize = 18)
 plt.ylabel("Expressão", fontsize = 14)
 plt.xlabel("Tratamento", fontsize = 14)
